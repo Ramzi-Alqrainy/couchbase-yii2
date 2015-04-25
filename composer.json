@@ -1,0 +1,27 @@
+{
+    "name": "Ramzi-Alqrainy/couchbase-yii2",
+    "description": "This extension provides the Coucbase SDK integration for the Yii2 framework",
+    "type": "yii2-extension",
+    "minimum-stability": "stable",
+    "keywords": ["yii2","extension","couchbase"],
+    "license": "Apache-2.0",
+    "support": {
+        "issues": "https://github.com/Ramzi-Alqrainy/couchbase-yii2/issues?state=open",
+        "source": "https://github.com/Ramzi-Alqrainy/couchbase-yii2"
+    },
+    "authors": [
+        {
+            "name": "Ramzi Sh. Alqrainy",
+            "email": "ramzi.alqrainy@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ramzi\\couchbase\\": ""
+        }
+    }
+}
+
